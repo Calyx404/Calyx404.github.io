@@ -53,7 +53,7 @@ function triggerSearch () {
 }
 
 function loadPageContent(targetString) {
-    $(".right-content").load("/pages/" + targetString + ".html", function(response, status, xhr) {
+    $(".right-content").load(targetString + ".html", function(response, status, xhr) {
         console.log(status);
         if (status === "error") { $(".right-content").html("<h1><strong>404</strong> | This page could not be found.</h1>"); } // Display 404 error message if the page could not be found.
     });

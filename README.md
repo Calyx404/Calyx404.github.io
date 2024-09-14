@@ -10,7 +10,7 @@
 
 ## Accessibility
 
-Visit <domain_name> in your preferred web browser.
+Visit **calyx404.github.io/Encrypted** in your preferred web browser.
 
 ## Usage
 
