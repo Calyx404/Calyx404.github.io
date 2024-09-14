@@ -249,7 +249,7 @@ header {
             }
 
             & > .tooltip {
-                right: var(--sz-h3);
+                right: var(--sz-base);
 
                 &::after {
                     left: 70%;
